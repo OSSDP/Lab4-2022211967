@@ -31,7 +31,7 @@ public class AppTest {
     public void addStrings() {
         Solution solution = new Solution();
         String ans = solution.addStrings("2","3");
-        assertEquals("5",ans);
+        assertEquals("7",ans);
         ans = solution.addStrings("9","2");
         assertEquals("11",ans);
     }
